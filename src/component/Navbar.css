@@ -1,0 +1,194 @@
+.nav{
+   
+    /* background: linear-gradient(to right, #12394a, #044561); */
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    opacity: 1;
+    z-index: 999;
+   padding-block: 20px;
+}
+.nav h6{
+    color: white;
+    text-decoration: none;
+}
+.mobile-menu-icon{
+  display: none;
+}
+.music ul{
+  width: 12vmax;
+  height: 10vmax;
+  position: absolute;
+  right: 27%;
+  list-style: none;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ top: -150%;
+ transition: 1s; 
+}
+.music ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.9vmax;
+
+}
+.musicnav:hover >.music ul{
+  top: 70%;
+}
+
+/* dancenav */
+.dance ul{
+  width: 12vmax;
+  height: 10vmax;
+  position: absolute;
+  right: 18%;
+  list-style: none;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ top: -150%;
+ transition: 1s; 
+}
+.dance ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.9vmax;
+}
+.dancenav:hover >.dance ul{
+  top: 70%;
+}
+
+/* eventnav */
+.event ul{
+  width: 12vmax;
+  height: 10vmax;
+  position: absolute;
+  right: 10%;
+  list-style: none;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ top: -150%;
+ transition: 1s; 
+}
+.event ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.9vmax;
+}
+.eventnav:hover >.event ul{
+  top: 70%;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    
+    .right h6{
+      display: none;
+    }
+
+    .nav-links-mobile{
+      position: absolute;
+      display: block;
+      background-color: #2c4a53;
+      text-align: center;
+      top: 60px;
+      width: 100%;
+      transition: all 0.5s ease-out;
+      margin-top: 3vmax;
+    }
+   .nav-links-mobile h6{
+    padding: 5px;
+   
+    color: white;
+    font-size: 3vmax;
+
+   }
+   .mobile-menu-icon{
+    display: block;
+    position: absolute;
+    right: 50px;
+    border: none;
+    z-index: 999;
+    font-size: 4vmax;
+  }
+  .music ul{
+    width: 25vmax;
+    height: 20vmax;
+    position: absolute;
+    right: 22%;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   top: -180%;
+   transition: 1s; 
+  }
+  .music ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vmax;
+  
+  }
+  .musicnav:hover >.music ul{
+    top: 100%;
+  }
+  .dance ul{
+    width: 25vmax;
+    height: 20vmax;
+    position: absolute;
+    right: 22%;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   top: -180%;
+   transition: 1s; 
+  }
+  .dance ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vmax;
+  
+  }
+  .dancenav:hover >.dance ul{
+    top: 100%;
+  }
+  .event ul{
+    width: 25vmax;
+    height: 20vmax;
+    position: absolute;
+    right: 22%;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   top: -180%;
+   transition: 1s; 
+  }
+  .event ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vmax;
+  
+  }
+  .eventnav:hover >.event ul{
+    top: 100%;
+  }
+
+
+
+    
+     
+     }
+    

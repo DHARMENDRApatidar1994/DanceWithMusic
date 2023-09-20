@@ -1,0 +1,53 @@
+*{
+margin:0;
+padding:0;
+box-sizing:boder-box;
+}
+html,body{
+height:100%;
+width:100%;
+}
+#main{
+height:100%;
+width:100%;
+position:relative;
+}
+.rightNav{
+    height: 100vh;
+    /* top: 8vh; */
+    left:-16%;
+    width: 18vw;
+    color: white;
+    background: #000;
+    position: absolute;
+    z-index: 99;
+}
+
+#main>.rightNav>h1{
+    /* background-color: red; */
+    left: 0%;
+    width: 18vw;
+    white-space: nowrap;
+    color: orange;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute; */
+}
+.txtdash{
+    height: 50vh;
+    width: 18vw;
+    /* background-color: red; */
+}
+.main1{
+    /* background-color: red; */
+    /* height: 70vh; */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+}
+

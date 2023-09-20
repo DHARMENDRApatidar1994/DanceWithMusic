@@ -1,0 +1,370 @@
+.bgimage{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+
+}
+.perfomer{
+    width: 100%;
+   
+    
+}
+
+.perfomer img{
+    width: 25%;
+    height: 35vmax;
+    margin-top: 0.8vmax;
+}
+
+
+
+.event1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    transform: translateY(6vmax);
+    font-family: 'poppins';
+  
+}
+.event1 .event{
+    margin-top: 2vmax;
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    border-radius: 2vmax;
+    padding: 0.5vmax 1.5vmax;
+}
+.about{
+    width: 80%;
+}
+
+.event1-2-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+.venue{
+    width: 40%;
+    /* margin-top: 2vmax; */
+}
+.venue h4{
+    margin-left: 1vmax;
+    font-size: 1.2vmax;
+}
+.venue i{
+    font-size: 2vmax;
+}
+.tickets{
+    width: 30%;
+    text-align: center;
+
+    
+}
+.tickets h3{
+
+    font-size: 2vmax;
+    margin-right: 3vmax;
+   
+}
+.tickets button{
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    padding: 1vmax 2vmax;
+    border-radius: 2vmax;
+    margin-top: 1vmax;
+    transition: 1s;
+    border: none;
+}
+.address{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+
+}
+.address-left{
+    width: 45%;
+}
+.address-left img{
+    width: 100%;
+    height: 85%;
+    margin-top: 1.5vmax;
+    cursor: pointer;
+}
+.address-right{
+    width: 45%;
+}
+.address-right i{
+    height: 5vmax;
+    font-size: 3vmax;
+    /* background-color: black; */
+    padding: 0vmax 1vmax;
+    border-radius: 1vmax;
+    margin-right: 2vmax;
+    cursor: pointer;
+   
+}
+.vanues{
+    border-bottom: 1px solid gray;
+    margin-top: 1vmax;
+    padding: 1vmax;
+   
+    align-items: center;
+    display: flex;
+}
+.transport{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-top: 1vmax;
+    padding: 1vmax;
+    display: flex;
+}
+.transport1{
+    width: 80%;
+}
+.bus{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed gray;
+}
+
+.hotel{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-top: 1vmax;
+    padding: 1vmax;
+    display: flex;
+}
+.ri-map-pin-line{
+    color: red;
+}
+.ri-calendar-2-line{
+    color: blue;
+}
+.ri-timer-line{
+    color: greenyellow;
+}
+.ri-flight-takeoff-line{
+    color: turquoise;
+}
+.ri-hotel-line{
+    color: tomato;
+}
+
+
+@media (max-width:600px) {
+    .bgimage{
+        margin-top: 7vmax;
+    }
+
+    
+    .perfomer img{
+        width: 50%;
+        margin-top: 0vmax;
+    }
+    
+    
+    
+   
+    .event1 .event{
+        transform: translateY(50vmax);
+        font-size: 3.5vmax;
+    }
+    .event1-2-1{
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .venue{
+        width: 80%; 
+       
+    }
+    .venue h4{
+        margin-left: 1vmax;
+        font-size: 2vmax;
+    }
+    .venue i{
+        font-size: 2vmax;
+    }
+    .tickets{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        
+    }
+    .tickets h3{
+    
+        font-size: 3vmax;
+        margin-right: 6vmax;
+        margin-top: 1vmax;
+       
+    }
+    .tickets button{
+        padding: 1vmax 3vmax;
+      
+    }
+   
+   
+    .address{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .address-left{
+        width: 90%;
+        text-align: center;
+    }
+    .address-left img{
+        width: 100%;
+    }
+    .address-right{
+        width: 90%;
+        text-align: center;
+        margin-top: 2vmax;
+    }
+    .address-right i{
+        width: 7vmax;
+        height: 7vmax;
+        text-align: center;
+        font-size: 5vmax;
+    }
+    .vanues{
+        flex-direction: column;
+        align-items: center;
+    }
+    .transport{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hotel{
+        flex-direction: column;
+       align-items: center;
+    }
+
+}
+
+
+@media (min-width:600px) and (max-width:830px) {
+    .bgimage{
+        margin-top: 2.3vmax;
+    }
+ .perfomer img{
+        width: 50%;
+        margin-top: 0vmax;
+    }
+    .event1 .event{
+        transform: translateY(65vmax);
+        font-size: 4.5vmax;
+    }
+    .event1-2-1{
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .about p{
+        font-size: 2vmax;
+    }
+    
+    .venue{
+        width: 80%; 
+       
+    }
+    .venue h4{
+        margin-left: 1vmax;
+        font-size: 2vmax;
+    }
+    .venue i{
+        font-size: 2vmax;
+    }
+    .tickets{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        
+    }
+    .tickets h3{
+    
+        font-size: 3vmax;
+        margin-right: 6vmax;
+        margin-top: 1vmax;
+       
+    }
+    .tickets button{
+        padding: 1vmax 3vmax;
+      
+    }
+    .address{
+        flex-direction: column;
+        align-items: center;
+    }
+    .address-left{
+        width: 90%;
+        text-align: center;
+    }
+    .address-left img{
+        width: 100%;
+    }
+    .address-right{
+        width: 90%;
+        text-align: center;
+        margin-top: 2vmax;
+        font-size: 2.5vmax;
+    }
+    .address-right i{
+        width: 7vmax;
+        height: 7vmax;
+        text-align: center;
+        font-size: 5vmax;
+      
+    }
+    .vanues{
+        flex-direction: column;
+        align-items: center;
+    }
+    .transport{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hotel{
+        flex-direction: column;
+       align-items: center;
+    }
+
+}
+
+@media (min-width:380px) and (max-width:500px) {
+    .event1 .event{
+        transform: translateY(40vmax);
+        font-size: 3vmax;
+    }
+}
+@media (min-width:500px) and (max-width:600px) {
+    .event1 .event{
+        transform: translateY(80vmax);
+        font-size: 5vmax;
+    }
+}
+@media (max-width:300px)  {
+    .event1 .event{
+        transform: translateY(35vmax);
+        font-size: 3vmax;
+    }
+}

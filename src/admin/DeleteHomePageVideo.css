@@ -1,0 +1,47 @@
+.deleteimage{
+    width: 100%;
+
+    display: flex;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.deleteimage .imagediv{
+    text-align: center;
+    width: 30%;
+    margin-top: 2vmax;
+}
+.imagediv img{
+    width: 100%;
+
+}
+.imagediv button{
+    background-color: black;
+    color: white;
+    padding: 0.2vmax 1vmax;
+    border-radius: 1.8vmax;
+    font-size: 1.5vmax;
+    transition: 0.5s;
+}
+.imagediv button:hover{
+    background-color: rgb(207, 38, 38);
+
+}
+
+
+@media (max-width:600px) {
+    .deleteimage .imagediv{
+        width: 80%;
+    }
+    .imagediv button{
+        font-size: 2vmax;
+    }
+}
+
+@media (min-width:600px) and (max-width:830px) {
+    .deleteimage .imagediv{
+        width: 40%; 
+    }
+    .imagediv button{
+        font-size: 2vmax;
+    }
+}   

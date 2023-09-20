@@ -1,0 +1,402 @@
+.musicbox{
+    width: 100%;
+    height: auto;  
+    background-color:white;
+    font-family: 'Poppins';
+    padding-top: 8vmax; 
+    color: black;
+    overflow-x: hidden; 
+}
+.musicbox h1{
+    text-align: center;
+    margin-top: 2vmax;
+    margin-bottom: 3vmax;
+}
+
+.musicbox .musicimage{
+    width: 100%;
+    height:80vh ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1vmax;
+    /* overflow-y: scroll; */
+   
+}
+
+.arraydata{
+    width: 60%;
+    height: 100%;
+}
+.musicimage img{
+    width: 33%;
+    height: 33%;
+    cursor: pointer;
+}
+.imagedata {
+    width: 80%;
+    height: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.imagedata1{
+    width: 100%;
+    height: 95%;
+   
+}
+.imagedata1 .bdahoja{
+    width: 90%;
+    height: 100%;
+}
+.imagedata .ri-close-circle-line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+}
+ .audio{
+    width: 100%;
+    height: 40vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.audio .imgaudio{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(233, 41, 41); */
+  
+   
+}
+.imgaudio img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.imgaudio iframe{
+    width: 100%;
+    height: 110%;
+   
+}
+.imgaudio audio{
+    width: 90%;
+    height: 100%;
+    margin-left: 1vmax;
+    opacity: 0;
+}
+.imgaudio:hover > audio{
+    opacity: 1;
+}
+.workshops{
+    width: 100%;
+    height: 100vh;
+}
+.workshops .work{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+.work img{
+    width: 40%;
+    height: 40%;
+}
+.corporate{
+    width: 100%;
+    height: 160vh;
+}
+.corporate .corpo{
+    width: 100%;
+    height: 100%;
+    /* background-color:blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+.corpo img{
+    width: 60%;
+    height: 22%;
+    margin-top: 1vmax;
+}
+
+
+
+
+@media (max-width:600px) {
+  
+    .musicbox{
+        width: 100%;
+        height: auto;  
+        /* background-color:#191a1c; */
+        font-family: 'Poppins';
+        padding-top: 15vmax; 
+        color: black;
+        overflow-x: hidden; 
+    }
+    .musicbox h1{
+        text-align: center;
+        margin-top: 2vmax;
+        font-size: 5vmax;
+    }
+    
+    .musicbox .musicimage{
+        width: 100%;
+        height:80vh ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1vmax;
+        /* overflow-y: scroll; */
+       
+    }
+    
+    .arraydata{
+        width: 90%;
+        height: 100%;
+    }
+    .musicimage img{
+        width: 33%;
+        height: 33%;
+        cursor: pointer;
+        
+    }
+    .imagedata {
+        width: 80%;
+        height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .imagedata1{
+        width: 100%;
+        height: 95%;
+       
+    }
+    .imagedata1 .bdahoja{
+        width: 90%;
+        height: 100%;
+    }
+    .imagedata .ri-close-circle-line{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: black;
+    }
+     .audio{
+        width: 100%;
+        height: 100vh;
+        /* background-color: aqua; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    .audio .imgaudio{
+        width: 80%;
+        height: 30vh;
+        position: relative;
+        margin-bottom: 2vmax;
+        /* background-color: rgb(233, 41, 41); */
+      
+       
+    }
+    .imgaudio img{
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+    }
+  
+    .imgaudio audio{
+        width: 90%;
+        height: 100%;
+        margin-left: 1vmax;
+        opacity: 0;
+    }
+    .imgaudio:hover > audio{
+        opacity: 1;
+    }
+    .workshops{
+        width: 100%;
+        height: 100vh;
+    }
+    .workshops .work{
+        width: 100%;
+        height: 100%;
+        /* background-color:blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+        
+    }
+    .work img{
+        width: 40%;
+        height: 40%;
+    }
+    .corporate{
+        width: 100%;
+        height: 160vh;
+    }
+    .corporate .corpo{
+        width: 100%;
+        height: 100%;
+        /* background-color:blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        
+    }
+    .corpo img{
+        width: 60%;
+        height: 22%;
+        margin-top: 1vmax;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:830px) {
+    .musicbox{
+        width: 100%;
+        height: auto;  
+       
+        font-family: 'Poppins';
+        padding-top: 15vmax; 
+        color: black;
+        overflow-x: hidden; 
+    }
+    .musicbox h1{
+        text-align: center;
+        margin-top: 2vmax;
+        font-size: 5vmax;
+    }
+    
+    .musicbox .musicimage{
+        width: 100%;
+        height:80vh ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1vmax;
+        /* background-color: red; */
+        /* overflow-y: scroll; */
+       
+    }
+    
+    .arraydata{
+        width: 90%;
+        height: 100%;
+        /* background-color: red; */
+    }
+    .musicimage img{
+        width: 33%;
+        height: 33%;
+        cursor: pointer;
+        
+    }
+    .imagedata {
+        width: 80%;
+        height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .imagedata1{
+        width: 100%;
+        height: 95%;
+       
+    }
+    .imagedata1 .bdahoja{
+        width: 90%;
+        height: 100%;
+    }
+    .imagedata .ri-close-circle-line{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: black;
+    }
+     .audio{
+        width: 100%;
+        height: 100vh;
+        
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly; */
+        
+    }
+    .audio .imgaudio{
+        width: 80%;
+        height: 30vh;
+        position: relative;
+        margin-bottom: 2vmax;
+      
+       
+    }
+    .imgaudio img{
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+    }
+    
+    .imgaudio audio{
+        width: 90%;
+        height: 100%;
+        margin-left: 1vmax;
+        opacity: 0;
+    }
+    .imgaudio:hover > audio{
+        opacity: 1;
+    }
+    .workshops{
+        width: 100%;
+        height: 100vh;
+    }
+    .workshops .work{
+        width: 100%;
+        height: 100%;
+        /* background-color:blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+        
+    }
+    .work img{
+        width: 40%;
+        height: 40%;
+    }
+    .corporate{
+        width: 100%;
+        height: 160vh;
+    }
+    .corporate .corpo{
+        width: 100%;
+        height: 100%;
+        /* background-color:blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        
+    }
+    .corpo img{
+        width: 80%;
+        height: 22%;
+        margin-top: 1vmax;
+    }
+}
